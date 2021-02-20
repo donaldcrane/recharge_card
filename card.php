@@ -1,6 +1,6 @@
 <?php
-    for($i = 0; $i < 201; $i++){
-        $number = mt_rand(100000000000, 945234679086);
-        echo $number. "<br>";
+    for($i = 1; $i < 201; $i++){
+        $number = rand(100000000000, 945234679086);
+        echo "Recharge pin" . " " . $i ." - " . $number. "<br>";
     } 
 ?>
